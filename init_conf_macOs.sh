@@ -7,7 +7,7 @@ echo "Configuration de OSX…"
 ##Dock à gauche de l'écran
 defaults write com.apple.dock "orientation" -string "left" 
 ##Taille des icônes
-defaults write com.apple.dock "tilesize" -int "36" 
+defaults write com.apple.dock "tilesize" -int "22" 
 ##Cacher le doc automatiquement
 defaults write com.apple.dock "autohide" -bool "true"
 ##Ne pas afficher la section des applications utilisées récemment
@@ -40,5 +40,5 @@ defaults write com.apple.TimeMachine "DoNotOfferNewDisksForBackup" -bool "true"
 ##Activer le tap to click
 defaults write com.apple.driver.AppleBluetoothMultitouch.trackpad Clicking -bool true
 defaults -currentHost write NSGlobalDomain com.apple.mouse.tapBehavior -int 1
-##Désactiver le  "natural" scroll
-defaults write NSGlobalDomain com.apple.swipescrolldirection -bool false
+##Désactiver le "natural" scroll
+defaults write NSGlobalDomain com.apple.swipescrolldirection -bool true
