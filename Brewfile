@@ -33,6 +33,7 @@ brew "parallel"
 brew "testdisk"
 brew "wget"
 brew "woob"
+brew "pandoc"
 
 cask "appcleaner"
 cask "cryptomator"
